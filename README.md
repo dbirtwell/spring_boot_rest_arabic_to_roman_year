@@ -31,12 +31,15 @@ gradle bootRun
 
 then go to:
 
-http://localhost:8080/trackmystuff
+localhost:8080/arabic_to_roman_year/<arabic_year_to_convert>
 
-or
+where <arabic_year_to_convert> is the year you wish to convert to a Roman Numeral (must be greater than 0 and less than 4000)
 
-http://localhost:8080/trackmystuff/message
+an example call youd be
 
+localhost:8080/arabic_to_roman_year/2018
+
+This should return the Roman Numeral value of MMXVIII
 
 ## Running the tests
 
