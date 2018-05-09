@@ -1,0 +1,6 @@
+- Add logging
+- Revise Exception Handling (This was just to show SOME Eeeoe Handling)
+  - Add better exception handling when a non-numeric year is passed in
+  - Handle Mapping of "/" in a better way
+  - Handle the Whitelabel Error Page better  
+- Document the API, possibly using Swagger
